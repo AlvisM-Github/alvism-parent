@@ -15,6 +15,7 @@
         <module>alvism-dao</module>
         <module>alvism-service</module>
         <module>alvism-web</module>
+        <module>alvism-api</module>
     </modules>
 
 

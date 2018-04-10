@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="alvism-api" />
         <module name="alvism-common" />
         <module name="alvism-dao" />
         <module name="alvism-service" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alvism-api" target="1.8" />
       <module name="alvism-common" target="1.8" />
       <module name="alvism-dao" target="1.8" />
       <module name="alvism-manager" target="1.8" />

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="alvism-api:war">
+    <output-path>$PROJECT_DIR$/alvism-manager/alvism-api/target</output-path>
+    <root id="archive" name="alvism-api-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="alvism-api:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-api/alvism-api.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-api/alvism-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-common/alvism-common.iml" filepath="$PROJECT_DIR$/alvism-common/alvism-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-manager.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-manager.iml" />
