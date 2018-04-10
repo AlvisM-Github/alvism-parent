@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alvism-common/alvism-common.iml" filepath="$PROJECT_DIR$/alvism-common/alvism-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-manager.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alvism-parent.iml" filepath="$PROJECT_DIR$/alvism-parent.iml" />
+    </modules>
+  </component>
+</project>
