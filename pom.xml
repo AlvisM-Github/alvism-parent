@@ -10,6 +10,7 @@
     <modules>
         <module>alvism-common</module>
         <module>alvism-manager</module>
+        <module>alvism-web</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,6 +30,31 @@
     <properties>
 
         <junit.vesion>4.12</junit.vesion>
+        <servlet.vesion>3.1.0</servlet.vesion>
+        <slf4j.vesion>1.7.25</slf4j.vesion>
+        <logback>1.2.3</logback>
+        <commons-logging.vesion>1.2</commons-logging.vesion>
+        <commons-lang3.vesion>3.4</commons-lang3.vesion>
+        <commons-io.vesion>2.4</commons-io.vesion>
+        <commons-codec.vesion>1.10</commons-codec.vesion>
+        <commons-httpclient.vesion>3.1</commons-httpclient.vesion>
+        <commons-fileupload.vesion>1.3.1</commons-fileupload.vesion>
+        <aspectj.vesion>1.8.13</aspectj.vesion>
+        <spring.vesion>4.3.14.RELEASE</spring.vesion>
+        <dubbo.version>2.5.3</dubbo.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <zkclient.version>0.1</zkclient.version>
+        <mysql.vesion>5.1.38</mysql.vesion>
+        <druid.vesion>1.1.9</druid.vesion>
+        <mybatis.vesion>3.4.1</mybatis.vesion>
+        <mybatis-spring.vesion>1.3.1</mybatis-spring.vesion>
+        <ehcache.vesion>2.10.4</ehcache.vesion>
+        <shiro.vesion>1.4.0</shiro.vesion>
+        <freemarker.vesion>2.3.23</freemarker.vesion>
+        <fastjson.vesion>1.2.47</fastjson.vesion>
+        <docx4j.vesion>3.3.6</docx4j.vesion>
+        <poi.vesion>3.17</poi.vesion>
+        <jxl.vesion>2.6.12</jxl.vesion>
 
     </properties>
 
@@ -47,7 +73,7 @@
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>javax.servlet-api</artifactId>
-                <version>3.1.0</version>
+                <version>${servlet.vesion}</version>
                 <scope>provided</scope>
             </dependency>
 
@@ -55,206 +81,235 @@
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
-                <version>1.7.25</version>
+                <version>${slf4j.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
-                <version>1.2.3</version>
+                <version>${logback.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.2.3</version>
+                <version>${logback.vesion}</version>
             </dependency>
 
             <!-- Apache commons -->
             <dependency>
                 <groupId>commons-logging</groupId>
                 <artifactId>commons-logging</artifactId>
-                <version>1.2</version>
+                <version>${commons-logging.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>3.4</version>
+                <version>${commons-lang3.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
-                <version>2.4</version>
+                <version>${commons-io.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
-                <version>1.10</version>
+                <version>${commons-codec.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>commons-httpclient</groupId>
                 <artifactId>commons-httpclient</artifactId>
-                <version>3.1</version>
+                <version>${commons-httpclient.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
-                <version>1.3.1</version>
+                <version>${commons-fileupload.vesion}</version>
             </dependency>
 
             <!-- Aspectj -->
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjrt</artifactId>
-                <version>1.8.13</version>
+                <version>${aspectj.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
-                <version>1.8.13</version>
+                <version>${aspectj.vesion}</version>
             </dependency>
 
             <!-- Spring -->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-beans</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-expression</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-jdbc</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-tx</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-web</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-webmvc</artifactId>
-                <version>4.3.14.RELEASE</version>
+                <version>${spring.vesion}</version>
+            </dependency>
+
+            <!-- Dubbo -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.jboss.netty</groupId>
+                        <artifactId>netty</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- Zookeeper -->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.sgroschupf</groupId>
+                <artifactId>zkclient</artifactId>
+                <version>${zkclient.version}</version>
             </dependency>
 
             <!-- MySQL -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.38</version>
+                <version>${mysql.vesion}</version>
             </dependency>
 
             <!-- Druid -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
-                <version>1.1.9</version>
+                <version>${druid.vesion}</version>
             </dependency>
 
             <!-- MyBatis -->
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
-                <version>3.4.1</version>
+                <version>${mybatis.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis-spring</artifactId>
-                <version>1.3.1</version>
+                <version>${mybatis-spring.vesion}</version>
             </dependency>
 
             <!-- Ehcache -->
             <dependency>
                 <groupId>net.sf.ehcache</groupId>
                 <artifactId>ehcache</artifactId>
-                <version>2.10.4</version>
+                <version>${ehcache.vesion}</version>
             </dependency>
 
             <!-- Shiro -->
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-core</artifactId>
-                <version>1.4.0</version>
+                <version>${shiro.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-web</artifactId>
-                <version>1.4.0</version>
+                <version>${shiro.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-spring</artifactId>
-                <version>1.4.0</version>
+                <version>${shiro.vesion}</version>
             </dependency>
 
             <!-- Freemarker -->
             <dependency>
                 <groupId>org.freemarker</groupId>
                 <artifactId>freemarker</artifactId>
-                <version>2.3.23</version>
+                <version>${freemarker.vesion}</version>
             </dependency>
 
             <!-- Json -->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.47</version>
+                <version>${fastjson.vesion}</version>
             </dependency>
 
             <!-- Docx4j -->
             <dependency>
                 <groupId>org.docx4j</groupId>
                 <artifactId>docx4j</artifactId>
-                <version>3.3.6</version>
+                <version>${docx4j.vesion}</version>
             </dependency>
 
             <!-- POI -->
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
-                <version>3.17</version>
+                <version>${poi.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
-                <version>3.17</version>
+                <version>${poi.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml-schemas</artifactId>
-                <version>3.17</version>
+                <version>${poi.vesion}</version>
             </dependency>
             <dependency>
                 <groupId>net.sourceforge.jexcelapi</groupId>
                 <artifactId>jxl</artifactId>
-                <version>2.6.12</version>
+                <version>${jxl.vesion}</version>
             </dependency>
 
         </dependencies>

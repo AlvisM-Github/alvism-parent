@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="alvism-web:war">
-    <output-path>$PROJECT_DIR$/alvism-manager/alvism-web/target</output-path>
+    <output-path>$PROJECT_DIR$/alvism-web/target</output-path>
     <root id="archive" name="alvism-web-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="alvism-web:war exploded" />
     </root>
