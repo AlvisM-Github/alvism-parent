@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-dao/alvism-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-manager.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-parent.iml" filepath="$PROJECT_DIR$/alvism-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-pojo/alvism-pojo.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-pojo/alvism-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-manager/alvism-service/alvism-service.iml" filepath="$PROJECT_DIR$/alvism-manager/alvism-service/alvism-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/alvism-web/alvism-web.iml" filepath="$PROJECT_DIR$/alvism-web/alvism-web.iml" />
     </modules>

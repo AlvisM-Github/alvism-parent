@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/alvism-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alvism-manager/alvism-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alvism-manager/alvism-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alvism-manager/alvism-pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alvism-manager/alvism-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/alvism-manager/alvism-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alvism-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

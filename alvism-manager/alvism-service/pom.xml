@@ -23,6 +23,13 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <!-- alvism-dao -->
+        <dependency>
+            <groupId>com.alvism</groupId>
+            <artifactId>alvism-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
         <!-- Junit -->
         <dependency>
             <groupId>junit</groupId>
