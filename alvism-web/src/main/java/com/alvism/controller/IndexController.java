@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
+ * Index 控制器
  * Created by JiaMingChen on 2018/4/11.
  */
 @Controller

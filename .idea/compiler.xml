@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="alvism-api" />
-        <module name="alvism-common" />
         <module name="alvism-dao" />
         <module name="alvism-pojo" />
         <module name="alvism-service" />
+        <module name="alvism-util" />
         <module name="alvism-web" />
       </profile>
     </annotationProcessing>
@@ -22,6 +22,7 @@
       <module name="alvism-parent" target="1.8" />
       <module name="alvism-pojo" target="1.8" />
       <module name="alvism-service" target="1.8" />
+      <module name="alvism-util" target="1.8" />
       <module name="alvism-web" target="1.8" />
       <module name="alvismcommon" target="1.8" />
     </bytecodeTargetLevel>

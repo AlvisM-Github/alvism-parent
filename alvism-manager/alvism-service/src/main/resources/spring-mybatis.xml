@@ -54,7 +54,7 @@
         <!--<property name="mapperLocations" value=""/>-->
     </bean>
 
-    <!-- MapperScannerConfigurer自动扫描mapper生成代理类 -->
+    <!-- MapperScannerConfigurer自动扫描mapper，调用SqlSessionFactoryBean生成代理类并存放到容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="com.alvism.mapper"/>
